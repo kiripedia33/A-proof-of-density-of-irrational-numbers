@@ -1,0 +1,13 @@
+\documentclass{article}
+\usepackage{amsthm,amsmath}
+\usepackage{amssymb}
+\begin{document}
+	$\forall x,\ y\in \mathbb{R},\ x<y,\ \exists i\in \mathbb{R}\backslash\mathbb{Q}$ such that $x<i<y$\\
+	\begin{proof}
+		`\\
+		Case 1: $x, y\in \mathbb{Q}$, choose $i=x+\frac{\sqrt{2}}{2}(y-x)\ \in \mathbb{R}\backslash\mathbb{Q}$, \\
+		Case 2: $x,\ y\ \notin \{x,\ y\in \mathbb{Q}\}$, Obviously $\exists m,\ n\in \mathbb{R},\ x<m<n<y$\\
+		If $m,\ n\in \mathbb{Q}$, then by Case 1, $\exists i\in \mathbb{R}\backslash\mathbb{Q}$ such that $x<m<i<n<y\ \Rightarrow x<i<y$\\
+		If $m,\ n\  \notin \{m,\ n\in \mathbb{Q}\}$ Then choose $i=m$ or $i=n$ such that $i \in \mathbb{R}\backslash\mathbb{Q}$
+	\end{proof}
+\end{document}
